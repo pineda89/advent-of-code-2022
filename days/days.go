@@ -12,6 +12,7 @@ import (
 	"github.com/pineda89/advent-of-code-2022/days/day09"
 	"github.com/pineda89/advent-of-code-2022/days/day10"
 	"github.com/pineda89/advent-of-code-2022/days/day11"
+	"github.com/pineda89/advent-of-code-2022/days/day12"
 )
 
 var DaysArray []Day
@@ -28,6 +29,7 @@ func init() {
 	addDay(&day09.Day{})
 	addDay(&day10.Day{})
 	addDay(&day11.Day{})
+	addDay(&day12.Day{})
 }
 
 type Day interface {
